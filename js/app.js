@@ -13,6 +13,25 @@
         const buttons = document.querySelectorAll(".hero__btn");
         const manSection = document.getElementById("man");
         const womanSection = document.getElementById("woman");
+        buttons.forEach((button => {
+            button.addEventListener("click", (function() {
+                buttons.forEach((btn => btn.classList.remove("btn--active")));
+                this.classList.add("btn--active");
+                if (this.textContent.trim() === "Для нього") {
+                    manSection.style.display = "block";
+                    womanSection.style.display = "none";
+                } else {
+                    manSection.style.display = "none";
+                    womanSection.style.display = "block";
+                }
+            }));
+        }));
+        document.querySelector(".hero__btn.btn--active")?.click();
+    }));
+    document.addEventListener("DOMContentLoaded", (function() {
+        const buttons = document.querySelectorAll(".hero__btn");
+        const manSection = document.getElementById("man");
+        const womanSection = document.getElementById("woman");
         function handleClick() {
             buttons.forEach((btn => btn.classList.remove("btn--active")));
             this.classList.add("btn--active");
