@@ -260,7 +260,12 @@ body {
 .description {
   background-color: #f8e4e2;
   padding-top: 6.25rem;
-  padding-bottom: 4.6875rem
+  padding-bottom: 4.6875rem;
+  opacity: 0;
+  transition: opacity 1s
+}
+.description._watcher-view {
+  opacity: 1
 }
 .description__container {
   display: grid;
@@ -325,7 +330,12 @@ body {
 }
 .end {
   padding-top: 6.25rem;
-  padding-bottom: 7.8125rem
+  padding-bottom: 7.8125rem;
+  opacity: 0;
+  transition: opacity 1s
+}
+.end._watcher-view {
+  opacity: 1
 }
 .end__container {
   display: grid;
@@ -367,11 +377,114 @@ body {
   -o-object-fit: cover;
   object-fit: cover
 }
+.first-step__row01 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step__row01._watcher-view {
+  opacity: 1
+}
+.first-step__row02 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step__row02._watcher-view {
+  opacity: 1
+}
+.first-step__row03 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step__row03._watcher-view {
+  opacity: 1
+}
+.first-step__row04 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step__row04._watcher-view {
+  opacity: 1
+}
+.first-step__row05 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step__row05._watcher-view {
+  opacity: 1
+}
+.first-step__pink-row {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step__pink-row._watcher-view {
+  opacity: 1
+}
+.first-step__row06 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step__row06._watcher-view {
+  opacity: 1
+}
+.first-step__row07 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step__row07._watcher-view {
+  opacity: 1
+}
+.first-step__row08 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step__row08._watcher-view {
+  opacity: 1
+}
+.first-step__row09 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step__row09._watcher-view {
+  opacity: 1
+}
+.first-step__pink-row {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step__pink-row._watcher-view {
+  opacity: 1
+}
+.first-step__row10 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step__row10._watcher-view {
+  opacity: 1
+}
+.first-step__row11 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step__row11._watcher-view {
+  opacity: 1
+}
+.first-step__row12 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step__row12._watcher-view {
+  opacity: 1
+}
 .row01 {
-  padding-top: 12.5rem
+  padding-top: 12.5rem;
+  opacity: 0;
+  transition: opacity 1s
 }
 .row01:not(:last-child) {
   margin-bottom: 6.25rem
+}
+.row01._watcher-view {
+  opacity: 1
 }
 .row01__container {
   display: grid;
@@ -813,6 +926,48 @@ body {
 .row12__image img {
   width: 100%
 }
+.second-step__row01 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.second-step__row01._watcher-view {
+  opacity: 1
+}
+.second-step__row02 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.second-step__row02._watcher-view {
+  opacity: 1
+}
+.second-step__row03 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.second-step__row03._watcher-view {
+  opacity: 1
+}
+.second-step__row04 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.second-step__row04._watcher-view {
+  opacity: 1
+}
+.second-step__row05 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.second-step__row05._watcher-view {
+  opacity: 1
+}
+.second-step__row06 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.second-step__row06._watcher-view {
+  opacity: 1
+}
 .second-row01 {
   padding-top: 6.25rem;
   padding-bottom: 6.25rem
@@ -1031,6 +1186,34 @@ body {
   padding-left: 7.1875rem;
   align-self: end
 }
+.third-step__row01 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.third-step__row01._watcher-view {
+  opacity: 1
+}
+.third-step__row02 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.third-step__row02._watcher-view {
+  opacity: 1
+}
+.third-step__row03 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.third-step__row03._watcher-view {
+  opacity: 1
+}
+.third-step__row04 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.third-step__row04._watcher-view {
+  opacity: 1
+}
 .third-row01__container {
   display: grid;
   grid-template-columns: repeat(2,1fr)
@@ -1159,6 +1342,62 @@ body {
   z-index: 2;
   align-self: start;
   padding-left: 7.1875rem
+}
+.first-step-man__row01 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step-man__row01._watcher-view {
+  opacity: 1
+}
+.first-step-man__row02 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step-man__row02._watcher-view {
+  opacity: 1
+}
+.first-step-man__row03 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step-man__row03._watcher-view {
+  opacity: 1
+}
+.first-step-man__row04 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step-man__row04._watcher-view {
+  opacity: 1
+}
+.first-step-man__row05 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step-man__row05._watcher-view {
+  opacity: 1
+}
+.first-step-man__row06 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step-man__row06._watcher-view {
+  opacity: 1
+}
+.first-step-man__row07 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step-man__row07._watcher-view {
+  opacity: 1
+}
+.first-step-man__row08 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.first-step-man__row08._watcher-view {
+  opacity: 1
 }
 .row01-first-step-man {
   padding-top: 12.5rem
@@ -1401,6 +1640,34 @@ body {
   object-fit: cover;
   border-radius: 1.875rem
 }
+.second-step-man__row01 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.second-step-man__row01._watcher-view {
+  opacity: 1
+}
+.second-step-man__row02 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.second-step-man__row02._watcher-view {
+  opacity: 1
+}
+.second-step-man__row03 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.second-step-man__row03._watcher-view {
+  opacity: 1
+}
+.second-step-man__row04 {
+  opacity: 0;
+  transition: opacity 1s
+}
+.second-step-man__row04._watcher-view {
+  opacity: 1
+}
 .row01-second-step-man {
   padding-top: 6.25rem;
   padding-bottom: 6.25rem
@@ -1559,7 +1826,12 @@ body {
 }
 .third-step-man {
   padding-top: 6.25rem;
-  padding-bottom: 6.25rem
+  padding-bottom: 6.25rem;
+  opacity: 0;
+  transition: opacity 1s
+}
+.third-step-man._watcher-view {
+  opacity: 1
 }
 .third-step-man__container {
   display: grid;
