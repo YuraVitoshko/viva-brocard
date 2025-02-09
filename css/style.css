@@ -245,9 +245,6 @@ body {
 .hero__title:not(:last-child) {
   margin-bottom: 2.1875rem
 }
-.hero__title span {
-  font-weight: 400
-}
 .hero__title._watcher-view {
   -webkit-animation: title .8s ease .7s forwards;
   animation: title .8s ease .7s forwards
